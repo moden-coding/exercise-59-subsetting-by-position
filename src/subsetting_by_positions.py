@@ -7,7 +7,8 @@ def subsetting_by_positions():
     pass
 
 def main():
-    subsetting_by_positions()
+    df = subsetting_by_positions()
+    print(df)
 
 if __name__ == "__main__":
     main()
